@@ -1,1 +1,22 @@
 <load target="./haganai_pure.css">
+<load target="http://yui.yahooapis.com/pure/0.2.0/base-min.css">
+<div class="user_layout">
+  <div class="pure-g-r " id="layout">
+     <a href="#menu" id="menuLink" class="pure-menu-link"> 메뉴 열기 </a>
+  </div>
+  <div class="pure-u" id="menu">
+    <div class="pure-menu pure-menu-open">
+      <div class="gnb">
+				<ul>
+					<li loop="$global_menu->list=>$key1,$val1" class="active"|cond="$val1['selected']">
+          <a href="{$val1['href']}" target="_blank"|cond="$val1['open_window']=='Y'">{$val1['link']}</a>		
+					</li>
+				</ul>
+      <!-- div gnb end-->
+    	</div>
+    <!-- pure_menu pure-menu-open end-->
+    </div>
+  <!-- id menu end -->
+  </div>
+<!-- div user_layout end-->
+</div>
