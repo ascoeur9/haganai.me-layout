@@ -1,3 +1,4 @@
+[![Board Status](https://ascoeur.visualstudio.com/dd7e019b-6cda-493c-a0e6-3351bd618559/d263f8f7-5a70-47be-86af-0ca5e94f8ac2/_apis/work/boardbadge/83e729dd-63e9-415f-ad32-3a245ef6947f)](https://ascoeur.visualstudio.com/dd7e019b-6cda-493c-a0e6-3351bd618559/_boards/board/t/d263f8f7-5a70-47be-86af-0ca5e94f8ac2/Microsoft.RequirementCategory)
 haganai.me-layout
 =================
 
